@@ -1,0 +1,9 @@
+Model Name,Dataset,Target,Independent Variables,Model Type,Accuracy Train,Accuracy Test,Precision,Recall,F-Score
+model_lr_all,Original,y,"all except y, duration",Logistic Regression,0.9,0.9,0.67,0.22,0.33
+model_lr,Original,y,"all except y, durationm default, month, day_of_week, unknown columns after ont hot encoding",Logistic Regression,0.9,0.9,0.65,0.21,0.32
+model_dt_all,Original,y,"all except y, duration",Decision Tree,0.92,0.9,0.46,0.27,0.34
+model_dt,Original,y,"all except y, durationm default, month, day_of_week, unknown columns after ont hot encoding",Decision Tree,0.92,0.9,0.49,0.26,0.34
+model_lr_all,Oversample,y,"all except y, duration",Logistic Regression,0.93,0.93,0.97,0.89,0.93
+model_lr,Oversample,y,"all except y, durationm default, month, day_of_week, unknown columns after ont hot encoding",Logistic Regression,0.88,88,0.92,0.83,0.87
+model_dt_all,Oversample,y,"all except y, duration",Decision Tree,0.99,0.9,0.9,0.91,0.91
+model_dt,Oversample,y,"all except y, durationm default, month, day_of_week, unknown columns after ont hot encoding",Decision Tree,0.99,0.89,0.89,0.9,0.9
